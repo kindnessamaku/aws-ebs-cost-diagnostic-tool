@@ -47,11 +47,11 @@ python main.py
   <tr>
     <td>
       <!-- Replace the text between the " " below with your first URL -->
-      <img src="https://github.com/user-attachments/assets/57c9325d-fc6f-482b-81b7-5c89ccd534a7" width="450" alt="CloudFormation Stacks">
+      <img src="https://github.com/user-attachments/assets/57c9325d-fc6f-482b-81b7-5c89ccd534a7" width="450" alt="EBS">
     </td>
     <td>
       <!-- Replace the text between the " " below with your second URL -->
-      <img src="https://github.com/user-attachments/assets/a66a10bb-fa60-4a0d-a5d4-6aa82361d939" width="450" alt="Stack Outputs">
+      <img src="https://github.com/user-attachments/assets/a66a10bb-fa60-4a0d-a5d4-6aa82361d939" width="450" alt="Outputs">
     </td>
   </tr>
 </table>
