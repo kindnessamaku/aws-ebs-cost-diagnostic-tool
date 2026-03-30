@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-- **Step 5** : Test the Tool : To validate the script, create a test EBS volume in your AWS account, ensure it is not attached to any EC2 instance, run the script again and observe detection, cost calculation and snapchat creation.
+- **Step 5** : Test the Tool : To validate the script, create a test EBS volume in your AWS account, ensure it is not attached to any EC2 instance, run the script again and observe detection, cost calculation and snapshot creation.
 
  <table>
   <tr>
