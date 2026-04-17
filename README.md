@@ -1,6 +1,21 @@
 # AWS EBS Cost Diagnostic Tool
 ## Overview
 This project is an AWS EBS cost optimization tool that identifies unattached volumes, calculates their age and estimated monthly cost, and flags resources exceeding 30 days. To ensure safe cleanup, the tool automatically creates snapshots of flagged volumes before removal. It also generates a financial summary report highlighting potential cost savings. The project demonstrates automation, cost optimization and safe resource management using AWS and Python (boto3).
+
+## 🛠️ Tech Stack
+
+**Programming Language** : Python – The core logic for resource scanning, date calculations, and automation.
+
+**AWS SDK** : Boto3 – Used to programmatically interact with AWS services to describe volumes, create snapshots, and delete resources.
+
+**Cloud Infrastructure** : Amazon EC2 (EBS) – The target service for cost analysis and storage management.
+
+**Data Protection** : Amazon EBS Snapshots – Automated backup mechanism used to ensure data persistence before resource cleanup.
+
+**Cost Management** : Applied cost-per-GB logic to calculate potential monthly savings.
+
+**CLI & Security** : AWS CLI & IAM – Used for secure authentication and local environment configuration.
+
 ## Key Features 
   - **Unattached Volume Detection** : Identifies all EBS volumes in the account that are not attached to any EC2 instance.
   - **Age Analysis** : Calculates how long each volume has existed using timestamp data.
